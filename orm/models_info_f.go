@@ -135,6 +135,23 @@ type fieldInfo struct {
 	decimals            int
 	isFielder           bool
 	onDelete            string
+	
+	isList		bool
+	isEdit		bool
+	isInsert	bool
+	isDetail	bool
+	label		string
+	helpTip		string
+	cssClassList	string
+	cssClassEdit	string
+	cssClassDetail	string
+	cssClassInsert	string
+	editType	string
+	orderList	int
+	orderInsert	int
+	orderEdit	int
+	orderDetail	int
+	blockID		int
 }
 
 // new field info
